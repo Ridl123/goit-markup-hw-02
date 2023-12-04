@@ -7,12 +7,13 @@
   --text-font-family: "Roboto", sans-serif;
   --what-are-you-doing-color: #e7e9fc;
   --portfolio-button-color: #404bbf;
+  --font-logo: "Raleway", sans-serif;
 }
 
 /* Global styles */
 body {
   font-family: var(--text-font-family);
-  color: var(--adress-links);
+  color: #434455;
   background-color: var(--WHITE);
 }
 
@@ -27,6 +28,16 @@ body {
   align-items: center;
   flex-shrink: 0;
   margin-left: 156px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-color);
+}
+.link {
+  text-decoration: none;
 }
 .logo-web {
   color: var(--button-color);
@@ -47,6 +58,9 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   width: 71px;
+}
+.list {
+  list-style: none;
 }
 .menu-nav {
   display: inline-flex;
