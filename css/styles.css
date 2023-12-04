@@ -22,11 +22,6 @@ body {
   display: inline-flex;
 }
 .logo {
-  display: inline-flex;
-  height: 24px;
-  align-items: center;
-  flex-shrink: 0;
-  margin-left: 156px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -34,20 +29,15 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--button-color);
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
+  margin-left: 156px;
 }
 .link {
   text-decoration: none;
 }
-/* .logo-web {
-  color: var(--button-color);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 116.667%;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  width: 44px;
-} */
 .logo-studio-header {
   color: var(--Dark-bg);
   font-family: Raleway;
