@@ -143,6 +143,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-size: 16px;
+  color: var(--adress-links);
 }
 .strong-points-section ul {
   text-align: center;
@@ -261,19 +262,25 @@ body {
   margin-top: 96px;
 }
 .filter-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-color);
+  background-color: var(--Light-bg);
   display: flex;
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
   border: 1px solid var(--what-are-you-doing-color);
-  background: var(--Light-bg);
-  color: var(--button-color);
 }
 .filter-button:hover,
 .filter-button:focus {
-  background-color: var(--portfolio-button-color);
-  color: var(--WHITE);
+  color: #ffffffff;
+  background-color: #404bbf;
+  cursor: pointer;
 }
 .row-items {
   display: inline-flex;
@@ -284,16 +291,9 @@ body {
   margin-top: 48px;
 }
 .project-title {
-  color: var(--Dark-bg);
-  font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
-  letter-spacing: 0.4px;
-}
-.project-field {
-  color: var(--adress-links);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--Dark-bg);
 }
