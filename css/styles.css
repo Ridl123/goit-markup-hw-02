@@ -38,7 +38,7 @@ body {
 .link {
   text-decoration: none;
 }
-.logo-web {
+/* .logo-web {
   color: var(--button-color);
   font-family: Raleway;
   font-size: 18px;
@@ -47,7 +47,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   width: 44px;
-}
+} */
 .logo-studio-header {
   color: var(--Dark-bg);
   font-family: Raleway;
