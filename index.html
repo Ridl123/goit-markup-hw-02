@@ -3,31 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <header class="header">
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li>
-            <a href="">Studio</a>
+        <a href="./index.html" class="logo"
+          ><p class="logo-web">WEB</p>
+          <p class="logo-studio-header">STUDIO</p></a
+        >
+        <ul class="menu-nav">
+          <li class="nav-link">
+            <a href="./index.html">Studio</a>
           </li>
-          <li>
-            <a href="">Portfolio</a>
+          <li class="nav-link">
+            <a href="./portfolio.html">Portfolio</a>
           </li>
-          <li>
+          <li class="nav-link">
             <a href="">Contacts</a>
           </li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li>
+        <ul class="adress-links">
+          <li class="adress-link">
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
+          <li class="adress-link">
             <a href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
@@ -35,40 +45,39 @@
     </header>
 
     <!-- Main Section -->
-    <main>
-      <!-- Section 1 -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+    <main class="page-content">
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <h1 class="main-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="order-button">Order Service</button>
       </section>
 
       <!-- Strong Points Section -->
-      <section>
-        <h2>Strong points</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
+      <section class="strong-points-section">
+        <h2></h2>
+        <ul class="strong-points-list">
+          <li class="strong-points-item">
+            <h3 class="strong-points">Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-
-          <li>
+          <li class="strong-points-item">
             <h3>Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="strong-points-item">
             <h3>Diligence</h3>
             <p>
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="strong-points-item">
             <h3>Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
@@ -79,51 +88,55 @@
       </section>
 
       <!-- What are we doing section -->
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
-            <img src="./images/box1.jpg" alt="Imagine 1" width="360" />
+      <section class="what-are-doing-section">
+        <h2 class="section-title">What are we doing</h2>
+        <ul class="examples">
+          <li class="example">
+            <img src="./images/mainpage/box1.jpg" alt="Imagine 1" width="360" />
           </li>
-          <li>
-            <img src="./images/box2.jpg" alt="Imagine 2" width="360" />
+          <li class="example">
+            <img src="./images/mainpage/box2.jpg" alt="Imagine 2" width="360" />
           </li>
-          <li>
-            <img src="./images/box3.jpg" alt="Imagine 3" width="360" />
+          <li class="example">
+            <img src="./images/mainpage/box3.jpg" alt="Imagine 3" width="360" />
           </li>
         </ul>
       </section>
 
       <!-- Our Team section -->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <section class="our-team-section">
+        <h2 class="section-title">Our Team</h2>
+        <ul class="team">
+          <li class="team-member">
             <img
-              src="./images/team/MarkGuerrero.jpg"
+              src="./images/mainpage/team/MarkGuerrero.jpg"
               alt="Echipa 1"
               width="264"
             />
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
-          <li>
-            <img src="./images/team/TomFord.jpg" alt="Echipa 2" width="264" />
+          <li class="team-member">
+            <img
+              src="./images/mainpage/team/TomFord.jpg"
+              alt="Echipa 2"
+              width="264"
+            />
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-member">
             <img
-              src="./images/team/CamilaGarcia.jpg"
+              src="./images/mainpage/team/CamilaGarcia.jpg"
               alt="Echipa 3"
               width="264"
             />
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="team-member">
             <img
-              src="./images/team/DanielWilson.jpg"
+              src="./images/mainpage/team/DanielWilson.jpg"
               alt="Echipa 4"
               width="264"
             />
@@ -135,12 +148,17 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+    <footer class="footer-section">
+      <div class="footer-text">
+        <a href="./index.html" class="logo"
+          ><p class="logo-web">WEB</p>
+          <p class="logo-studio-footer">STUDIO</p>
+        </a>
+        <p class="footer-paragraph">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
