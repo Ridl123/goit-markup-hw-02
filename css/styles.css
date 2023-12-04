@@ -20,7 +20,6 @@ body {
 /* Classes */
 .header {
   display: inline-flex;
-  /* background-color: var(--what-are-you-doing-color); */
 }
 .logo {
   display: inline-flex;
@@ -236,17 +235,17 @@ body {
   flex-shrink: 0;
 }
 .logo-studio-footer {
-  color: var(--Light-bg);
+  color: #f4f4f4fd;
   display: flex;
   width: 71px;
   height: 21px;
   flex-direction: column;
   justify-content: center;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 116.667%;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-text {
@@ -256,8 +255,8 @@ body {
   color: var(--Light-bg);
   font-size: 16px;
   font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   width: 264px;
   margin-left: 156px;
 }
