@@ -12,6 +12,8 @@
 /* Global styles */
 body {
   font-family: var(--text-font-family);
+  color: var(--adress-links);
+  background-color: var(--WHITE);
 }
 
 /* Classes */
