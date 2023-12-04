@@ -221,7 +221,7 @@ body {
 }
 .footer-section {
   background: var(--Dark-bg);
-
+  /* width: 264px; */
   height: 112px;
   flex-shrink: 0;
 }
@@ -238,9 +238,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.footer-text {
-  width: 264px;
 }
 .footer-paragraph {
   color: var(--Light-bg);
