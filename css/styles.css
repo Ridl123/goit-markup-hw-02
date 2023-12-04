@@ -29,11 +29,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--button-color);
-  display: inline-flex;
+  /* display: inline-flex;
   height: 24px;
   align-items: center;
   flex-shrink: 0;
-  margin-left: 156px;
+  margin-left: 156px; */
 }
 .link {
   text-decoration: none;
@@ -196,7 +196,7 @@ body {
 .team {
   list-style: none;
   padding: 0;
-  text-align: center; /* Center the list items horizontally */
+  text-align: center;
 }
 .team-member {
   display: inline-block;
